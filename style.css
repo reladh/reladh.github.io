@@ -1,0 +1,7 @@
+:root{color-scheme:light dark;--fond:#fbfaf7;--texte:#1d1d1b;--doux:#5f5d57;--lien:#7a5c1e}
+@media (prefers-color-scheme:dark){:root{--fond:#121211;--texte:#ecebe6;--doux:#a6a49c;--lien:#d9b56a}}
+body{margin:0;background:var(--fond);color:var(--texte);font:17px/1.6 Georgia,"Times New Roman",serif}
+main{max-width:640px;margin:0 auto;padding:56px 20px}
+h1{font-weight:normal;font-size:30px;margin:0 0 8px}
+p,li{color:var(--texte)} .doux{color:var(--doux)} a{color:var(--lien)}
+ol{padding-left:22px} li{margin:10px 0} footer{margin-top:40px;font-size:15px;color:var(--doux)}
